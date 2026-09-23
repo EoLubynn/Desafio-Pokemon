@@ -1,0 +1,25 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+.Charmander, .Bubassaur, .Squirtle{
+    padding: 16px;
+    border: 2px dashed black
+}
+
+.Squirtle:hover{
+    background-color: cadetblue;
+}
+
+.Bubassaur:hover{
+    background-color: green;
+}
+
+.Charmander:hover{
+    background-color: orange;
+}

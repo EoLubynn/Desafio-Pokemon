@@ -1,0 +1,20 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    height: 300px;
+}
+
+.Eevee, .Vulpix, .Jigglypuff{
+    padding: 16px;
+    border: 2px dashed black
+}
+
+.Eevee{
+    height: 17%
+}
+
+.Jigglypuf{
+    height: 19%
+}
